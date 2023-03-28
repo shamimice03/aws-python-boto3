@@ -1,0 +1,36 @@
+{
+   "Records":[
+      {
+         "body":{
+            "Records":[
+               {
+                  "s3":{
+                     "bucket":{
+                        "name":"test-name1"
+                     },
+                     "object":{
+                        "key":"test-key1"
+                     }
+                  }
+               }
+            ]
+         }
+      },
+      {
+         "body":{
+            "Records":[
+               {
+                  "s3":{
+                     "bucket":{
+                        "name":"test-name2"
+                     },
+                     "object":{
+                        "key":"test-key2"
+                     }
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
