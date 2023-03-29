@@ -39,6 +39,8 @@ for item in response['Contents']:
             img.format
             resizer(img, key)
 
+# Add Layer to Lambda
+# Ref: https://repost.aws/knowledge-center/lambda-import-module-error-python
  # Install python3.9 first
  # python3.9 -m pip install Pillow -t python/
  # zip -r layer.zip python
