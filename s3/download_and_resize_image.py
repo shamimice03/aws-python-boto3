@@ -38,3 +38,8 @@ for item in response['Contents']:
         with Image.open(BytesIO(image_content)) as img:
             img.format
             resizer(img, key)
+
+ # Install python3.9 first
+ # python3.9 -m pip install Pillow -t python/
+ # zip -r layer.zip python
+ # aws lambda publish-layer-version --layer-name pli-layer --zip-file fileb://layer.zip --compatible-runtimes python3.9 --region ap-northeast-1
